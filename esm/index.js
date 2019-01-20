@@ -1,0 +1,15 @@
+export { I32, I64 } from './valueTypes'
+export { F32, F64 } from './valueTypes'
+
+export { NONE } from './blockTypes'
+export { ANYFUNC } from './elemTypes'
+export { funcType } from './funcTypes'
+export { globalType } from './globalTypes'
+export { resizableLimits } from './memoryTypes'
+export { tableType } from './memoryTypes'
+export { memoryType } from './memoryTypes'
+
+export { E_FUNC } from './externalTypes'
+export { E_TABLE } from './externalTypes'
+export { E_MEMORY } from './externalTypes'
+export { E_GLOBAL } from './externalTypes'

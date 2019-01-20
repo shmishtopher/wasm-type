@@ -1,0 +1,30 @@
+{
+  "name": "wasm-types",
+  "version": "1.0.0",
+  "description": "WebAssembly types utility",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmishtopher/wasm-types.git"
+  },
+  "keywords": [
+    "wasm",
+    "wasm-codegen",
+    "wasm-bytecode",
+    "wasm-types",
+    "webassembly"
+  ],
+  "author": "Shmish <shmish90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shmishtopher/wasm-types/issues"
+  },
+  "homepage": "https://github.com/shmishtopher/wasm-types#readme",
+  "dependencies": {
+    "wasm-leb128": "^1.1.2",
+    "wasm-uint": "^1.0.1"
+  }
+}
